@@ -118,6 +118,9 @@
 												<td rowspan="2" width='60' style="text-align: center;">
 													<img src="images/equipos/<% out.print(equipos.get(j).getCod_equipo()); %>.png" class="imagenLiga" title="<%out.print(equipos.get(j).getNombre());%>"/>
 												</td>	
+												<td rowspan="2" width="60">
+													<p><%=equipos.get(j).getCod_liga%></p>
+												</td>
 										<%
 										}
 										%>
